@@ -8,3 +8,7 @@ def bubble_sort(arr: list[int]) -> list[int]:
                 result[j], result[j + 1] = result[j + 1], result[j]
 
     return result
+
+
+result = bubble_sort([3, 2, 1, 12, 51, -1])
+print(result)   
